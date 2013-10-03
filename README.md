@@ -7,8 +7,10 @@ Jsonbot is used as a base for NURDbot, an IRC bot for our hackerspace called NUR
 The plug manages a list of hosts and their MAC addresses and can send WoL magic packets when given a listed hostname.
 
 Commands
-!wol <hostname>
-!wol-add <hostname> <macaddress>
-!wol-del <hostname>
+!wol
+!wol-add
+!wol-del
 !wol-hostlist
 !wol-maclist
+
+For more info, use jsonbot's !help function
